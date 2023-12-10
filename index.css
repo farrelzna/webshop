@@ -309,10 +309,14 @@ text-decoration: none;
 }
 
 .word{
+  display: grid;
   width: 650px;
   font-size: 35px;
-  padding-bottom:80px;
-  /* margin-bottom:50px; */
+  padding-bottom:40px;
+}
+
+.word h1{
+  text-align: center;
 }
 
 .btn{
@@ -335,11 +339,11 @@ text-decoration: none;
 }
 
 .baruu img{
-  padding: 20px;  
-  border-bottom-right-radius: 50px;
-  border-bottom-left-radius: 50px;
-  margin-right: 20px;
-  height: 300px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius:120px ;
+  border-bottom-right-radius: 0px;
+  height: 480px;
+  width: 550px;
 }
 
 .baruu{
@@ -349,6 +353,9 @@ text-decoration: none;
 
 .gambar {
   padding:20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10%;
 }
 
 .gambar img{
@@ -361,11 +368,7 @@ text-decoration: none;
 .wordd h1{
   display: flex;
   justify-content: center;
-  
-}
-.wordd p{
-  display: flex;
-  justify-content: center;
+  padding-bottom: 20px;
 }
 
 .wordd{
@@ -381,8 +384,13 @@ text-decoration: none;
 }
 .pic{
   display: flex;
-  
 }
+
+.pic img{
+  width: 40%;
+  height: auto;
+}
+
 .koll{
   display: flex;
   justify-content: center;
@@ -418,6 +426,13 @@ text-decoration: none;
   height: 200px;
 }
 
+.pici img{
+  height: auto;
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
 .diffco{
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -434,21 +449,25 @@ text-decoration: none;
 }
 
 .one{
-  padding:30px;
+  display: flex;
+  justify-content: center;
 }
 
 .one img{
-  height: 500px;
+  padding-top:10px;
+  height: auto;
   width: 600px;
 }
 
 .tree{
-  padding:20px
+  display: flex;
+  justify-content: center;
 }
 
 .tree img{
-  height: 500px;
+  height: auto;
   width: 600px;
+  padding-bottom: 10px;
 }
 
 .centerhw{
@@ -756,7 +775,7 @@ text-decoration: none;
 
   .satuu{
       display: grid;
-      justify-content: space-evenly;
+      justify-cottent: space-evenly;
       gap:1rem
   }
 
