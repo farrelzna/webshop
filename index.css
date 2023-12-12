@@ -215,6 +215,8 @@
 .one img{
   width: 100%;
   height: auto;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .tree{
@@ -224,6 +226,8 @@
 .tree img{
   width: 100%;
   height: auto;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 .two p{
@@ -622,17 +626,12 @@ text-decoration: none;
   .wordd p{
       display: flex;
       justify-content: center;
-      padding-bottom: ;
   }
   
   .wordd{
       font-weight: bold;
       padding-top:70px;
       padding-bottom: 30px;
-  }
-  
-  .thrird{
-      
   }
   
   .df{
@@ -713,12 +712,12 @@ text-decoration: none;
   .one{
       display: flex;
       justify-content: center;
-  }
-  
-  .one img{
-    padding-top: 10px;
-    height: auto;
-    width: 300px;
+    }
+    
+    .one img{
+      padding-top: 10px;
+      height: auto;
+      width: 300px;
   }
   
   .tree{
@@ -781,6 +780,6 @@ text-decoration: none;
 
   .per{
       display: flex;
-      gap:5rem   
+      gap:5rem;   
   }
 }
